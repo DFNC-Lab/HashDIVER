@@ -1,0 +1,32 @@
+# ============================================================
+# HashDIVER - Data Integrity Verifier & Equivalence Reporter
+# Python 3.9+ required (tkinter is part of the standard library)
+# (Only needed to RUN FROM SOURCE or to BUILD the .exe; the built
+#  HashDIVER.exe bundles all of these and needs no Python install.)
+# Install:  pip install -r requirements.txt
+# ============================================================
+
+# --- Core (required) ---------------------------------------
+Pillow>=9.1          # image loading, perceptual hashing, GUI window icon
+openpyxl>=3.0        # read/write the .xlsx result workbook
+matplotlib>=3.5      # result charts (embedded in the GUI, and PNG export)
+numpy>=1.21          # pHash DCT + heatmap math (falls back to dHash if missing,
+                     # but strongly recommended for accurate image comparison)
+
+# --- Optional (extra comparison capabilities) --------------
+# Uncomment the ones you need; the tool runs without them and
+# simply marks those comparisons as "not performed".
+
+# PyPDF2>=3.0        # PDF metadata / text-equivalence comparison
+# plyvel>=1.5        # LevelDB logical (key/value) comparison  -- needs LevelDB C lib; hard on Windows
+# leveldb>=0.201     # alternative pure-binding LevelDB backend
+
+# --- Build only (to make the standalone .exe; NOT needed to run) ---
+# pyinstaller>=6.0   # bundles everything above into a single HashDIVER.exe (see README §7)
+
+# --- External tools (NOT installed via pip) ----------------
+# ffmpeg + ffprobe   : required only for video/audio SAMPLED-MEDIA comparison.
+#                      Install separately and make sure both are on your PATH.
+#                      Windows : https://www.gyan.dev/ffmpeg/builds/  (add /bin to PATH)
+#                      macOS   : brew install ffmpeg
+#                      Linux   : sudo apt install ffmpeg
