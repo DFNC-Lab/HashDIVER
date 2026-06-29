@@ -1,6 +1,10 @@
 # HashDIVER
 
-DIVER = Data Integrity Verifier & Equivalence Reporter
+<div align="center">
+  <img width="25%" alt="image" src="https://github.com/user-attachments/assets/1fe97c0d-68ad-4221-9192-e64dc93f43c0" />
+</div>
+
+> # **DIVER** = **D**ata **I**ntegrity **V**erifier & **E**quivalence **R**eporter
 
 HashDIVER compares the data in two folders, or across several endpoints, to check
 whether files are byte-for-byte identical and, where the bytes differ, whether they
@@ -144,3 +148,9 @@ the license when you do.
 LICENSE 파일에서 전체 약관을, NOTICE 파일에서 저작권 고지를 확인할 수 있습니다.
 자유롭게 사용·수정·재배포할 수 있으며, 그럴 때 저작권 고지와 라이선스 사본을 함께
 포함해 주세요.
+
+## Contributors / 기여자
+
+| <img src="https://github.com/kangmelon.png" width="50" /> | <img src="https://github.com/kanghan0522.png" width="50" /> | <img src="https://github.com/hjoon9408.png" width="50" /> |
+|:---:|:---:|:---:|
+| [Soojin Kang](https://github.com/kangmelon) | [Kanghan Kim](https://github.com/kanghan0522) | [Hyunjun Kim](https://github.com/hjoon9408) |
