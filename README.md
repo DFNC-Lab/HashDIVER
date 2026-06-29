@@ -4,7 +4,7 @@
   <img width="25%" alt="image" src="https://github.com/user-attachments/assets/1fe97c0d-68ad-4221-9192-e64dc93f43c0" />
 </div>
 
-> # **DIVER** = **D**ata **I**ntegrity **V**erifier & **E**quivalence **R**eporter
+> # **DIVER** : **D**ata **I**ntegrity **V**erifier & **E**quivalence **R**eporter
 
 HashDIVER compares the data in two folders, or across several endpoints, to check
 whether files are byte-for-byte identical and, where the bytes differ, whether they
